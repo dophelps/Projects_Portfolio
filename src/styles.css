@@ -44,14 +44,6 @@ img {
   border-radius: 4px;
 }
 
-.hero about-me {
-  background-color: var(--branding-color);
-  border-radius: 4px;
-  color: whitesmoke;
-  font-size: 18px;
-  padding: 15px 20px;
-  line-height: 27px;
-}
 .about-section {
   padding: 160px 20px;
 }
