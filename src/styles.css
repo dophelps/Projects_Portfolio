@@ -47,21 +47,20 @@ img {
 .content-container {
   padding: 160px 20px;
 }
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.content-container h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.content-container h3 {
+.content h3 {
   font-size: 24px;
   font-family: var(--default-font-family);
   line-height: 1.5;
-  margin: 20px 0;
 }
 
 .content p {
@@ -87,7 +86,7 @@ img {
   padding: 15 px 30px;
   background-color: var(--branding-color);
   color: white;
-  border: 1px solid;
+  border: 1px solid var(--branding-color);
 }
 
 .project-description {
@@ -95,13 +94,9 @@ img {
 }
 
 @media (max-width: 900px) {
-  .project-description {
-    padding: 0;
-    text-align: centers;
-  }
   h1 {
     font-size: 44px;
-    line-height: 1.5;
+    line-height: 56px;
   }
   h2 {
     font-size: 44px;
@@ -112,5 +107,9 @@ img {
   .content {
     text-align: center;
     padding: 0;
+  }
+  .project-description {
+    padding: 0;
+    text-align: centers;
   }
 }
