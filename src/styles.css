@@ -1,5 +1,6 @@
 :root {
   --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -24,7 +25,7 @@ p {
 }
 
 .hero {
-  background: #f9f7fe;
+  background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -73,7 +74,7 @@ img {
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
-  color: whitesmoke;
+  color: var(--secondary-color);
   font-size: 18px;
   padding: 15px 20px;
   line-height: 27px;
@@ -85,7 +86,7 @@ img {
   line-height: 27px;
   padding: 15 px 30px;
   background-color: var(--branding-color);
-  color: white;
+  color: var(--secondary-color);
   border: 1px solid var(--branding-color);
 }
 
@@ -120,6 +121,35 @@ nav a {
 nav a.hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
