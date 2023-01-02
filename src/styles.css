@@ -141,4 +141,9 @@ nav li.active a {
     padding: 0;
     text-align: centers;
   }
+
+  nav a {
+    font-size: 14px;
+    margin: 5px;
+  }
 }
